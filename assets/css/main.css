@@ -4,41 +4,144 @@ body {
     margin: auto;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+#menu img{
+}
 #menu{
     box-shadow: 9px 7px 13px -5px rgba(99, 99, 99, 0.596);
-    background: rgb(202,202,204);
+    background: rgb(12, 12, 255);
     background: linear-gradient(180deg, rgba(202,202,204,0.835171568627451) 0%, rgba(224,224,224,1) 100%);
     height: 100px;
     width: 100%;
-    display: flex;
+    display: FLEX;
     justify-content: flex-end;
-    align-items: center;
     position: fixed;
 }
+
+#menu p {
+    width: auto;
+    text-align: center;
+ 
+}
+
+    #pic1 {
+        background-image: url("../images/3.jpg");
+        background-size: cover;
+        width: 60px;
+        height: 60px;
+        margin-right: 700px;
+    }
 
 #menu a {
     padding: 20px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 .hover a:hover {
 background-color: rgb(95, 95, 95);
 border-radius: 4px;
+
 }
+
+.hover{
+display: flex;
+justify-content: flex-end;
+border: 2px solid black;
+
+align-items: center;
+
+}
+
 
 #site1 {
+    padding-top: 150px;
+    padding-left: 30px;
+}
+
+#seite1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#einleitung {
+    width: 300px;
+    padding-left: 110px;
+}
+
+#maxi {
+
+margin-left: 50px;
 
 }
 
-#site1 h1{
-    text-align: center;
+
+#third {
+    display: flex;
+    justify-content: space-between;
+  
 }
+.icons {
+    display: flex;
+justify-content: flex-start;
+}
+
+
+#telefonicon {
+    background-image: url("../images/telefon.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+
+    margin-top: 12.5px;
+    margin-right: 10px;
+}
+
+#emailicon {
+    background-image: url("../images/email.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+
+    margin-top: 12.5px;
+    margin-right: 10px;
+}
+
+#stadt {
+    
+    margin-top: 12px;
+}
+
+
+#standorticon {
+    background-image: url("../images/standort.png");
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#personbild {
+    background-image: url("../images/p1.png");
+     background-size: cover;
+    width: 300px;
+    height: 400px;
+    margin-top: 200px;
+    margin-right: 450px;
+    filter: drop-shadow(24px 3px 22px #000000);
+    }
+
+
 
 ul {
-font-family:'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
-padding-left: 100px;
+padding-left: 50x;
 list-style: none;
 border: 2px solid black;
 }
@@ -46,28 +149,52 @@ border: 2px solid black;
 #site2 {
     font-size: 20px;
     padding-top: 100px;
+    padding-left: 30px;
+}
+
+#ausbildung {
+    padding-left: 80px;
 }
 
 #site3 {
     font-size: 20px;
     padding-top: 100px;
-
+    padding-left: 30px;
 }
 
 #site4 {
     font-size: 20px;
     padding-top: 100px;
-   
+    padding-left: 30px;
+}
+
+#beruf {
+    padding-left: 80px;
+}
+
+#site4 {
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+#kenntnisse {
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#it {
+    padding-right: 1200px;
 }
 
 #startphoto {
     width: 100%;
 margin-top: 200px;
-
 }
 
 #photocon1 {
-   
     margin-left: 738px;
 }
 
@@ -75,3 +202,30 @@ margin-top: 200px;
    margin-right: 530px;
 }
 
+
+
+#third {
+    display: flex;
+    justify-content: space-between;
+}
+
+#telefonicon {
+    background-image: url("../images/telefon.png");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+
+#second img {
+    box-shadow: 9px 7px 13px -5px rgba(99, 99, 99, 0.596);
+}
+
+.Jahr {
+   font-weight: bolder; 
+}
+
+footer {
+padding-top: 200px;
+padding-left: 120px;
+padding-bottom: 50px;
+}
