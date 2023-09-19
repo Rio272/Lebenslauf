@@ -183,8 +183,31 @@ list-style: none;
 #beruf2{
     display: flex;
     justify-content: space-between;
-    
 }
+
+#zeug a{
+    text-decoration: none;
+    color: black;
+    }
+
+    #zeug a:hover{
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+        }
+ #beruf2 a:hover{
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+            }
+    
+
+#beruf2 a{
+text-decoration: none;
+color: black;
+}
+
+
 
 #site4 {
     font-size: 20px;
@@ -360,4 +383,18 @@ justify-content: left;
 
 #back {
     margin-top: 50px;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.abstand {
+    margin-top: 1050px ;
+}
+
+#bod {
+    background-color: aquamarine;
+    opacity: 0.3;
 }
