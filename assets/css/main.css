@@ -67,11 +67,13 @@ align-items: center;
 #einleitung {
     width: 300px;
     padding-left: 110px;
+    padding-top: 30px;
 }
 
 #maxi {
 
 margin-left: 100px;
+padding-top: 30px;
 
 }
 
@@ -126,9 +128,9 @@ justify-content: flex-start;
 #personbild {
     background-image: url("../images/p1.png");
      background-size: cover;
-    width: 300px;
-    height: 400px;
-    margin-top: 200px;
+    width: 350px;
+    height: 450px;
+    margin-top: 280px;
     margin-right: 450px;
     box-shadow: 5px 5px 15px 5px #000000;
     }
@@ -253,9 +255,8 @@ padding-bottom: 50px;
     width: 150px;
     height: 150px;
     margin-right: 80px;
-    margin-left: 300PX;
+    margin-left: 80PX;
     margin-top: 80px;
-
 }
 
 #az2 {
@@ -265,7 +266,6 @@ padding-bottom: 50px;
     height: 150px;
     margin-right: 80px;
     margin-top: 80px;
- 
 }
 
 #az3 {
@@ -275,9 +275,6 @@ padding-bottom: 50px;
     height: 150px;
     margin-right: 80px;
     margin-top: 80px;
-    
-
- 
 }
 
 #az4 {
@@ -287,7 +284,43 @@ padding-bottom: 50px;
     height: 150px;
     margin-right: 80px;
     margin-top: 80px;
-   
+}
+
+#zeug1 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-left: 50PX;
+    margin-top: 80px;
+}
+
+#zeug2 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+#zeug3 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+#zeug4 {
+    background-image: url("../images/doc.png");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    margin-top: 80px;
 }
 
 .down {
@@ -306,4 +339,25 @@ padding-bottom: 50px;
 #backbutton a {
     text-decoration: none;
     font-size: 20px;
+}
+
+#zeug {
+    display: flex;
+justify-content: left;
+}
+
+#main {
+    margin-left: 80px;
+}
+
+#main1 {
+    margin-top: 200px;
+}
+
+#pw {
+    margin-left: 45px;
+}
+
+#back {
+    margin-top: 50px;
 }
