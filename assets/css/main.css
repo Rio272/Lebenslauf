@@ -65,7 +65,7 @@ align-items: center;
 }
 
 #einleitung {
-    width: 300px;
+    width: 400px;
     padding-left: 110px;
     padding-top: 30px;
 }
@@ -394,7 +394,3 @@ justify-content: left;
     margin-top: 1050px ;
 }
 
-#bod {
-    background-color: aquamarine;
-    opacity: 0.3;
-}
