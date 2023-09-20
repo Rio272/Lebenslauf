@@ -1,6 +1,6 @@
 body {
     background-color: rgba(172, 172, 172, 0.171);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: auto;
 }
 
@@ -10,8 +10,7 @@ h1 {
 
 
 #menu{
-    box-shadow: 9px 7px 13px -5px rgba(99, 99, 99, 0.596);
-    background: linear-gradient(180deg, rgba(25, 25, 26, 0.835) 0%, rgba(224,224,224,1) 100%);
+  background-color: rgb(216, 216, 216);
     height: 100px;
     width: 100%;
     display: FLEX;
@@ -38,11 +37,12 @@ h1 {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: black;
+
 }
 
 .hover a:hover {
-background-color: rgb(95, 95, 95);
+background-color: rgb(255, 255, 255);
 border-radius: 4px;
 
 }
@@ -130,7 +130,7 @@ justify-content: flex-start;
      background-size: cover;
     width: 350px;
     height: 450px;
-    margin-top: 280px;
+    margin-top: 220px;
     margin-right: 450px;
     box-shadow: 5px 5px 15px 5px #000000;
     }
@@ -147,6 +147,8 @@ list-style: none;
     font-size: 20px;
     padding-top: 100px;
     padding-left: 30px;
+    margin-bottom: 100px;
+    padding-right: 100px;
 }
 
 #ausbildung {
@@ -157,6 +159,7 @@ list-style: none;
     font-size: 20px;
     padding-top: 100px;
     padding-left: 30px;
+    margin-bottom: 100px;
    
 }
 
@@ -166,24 +169,13 @@ list-style: none;
     padding-left: 30px;
 }
 
-#beruf0 {
 
-
+#beruf {
     display: flex;
     justify-content: flex-start;
 }
 
 
-#beruf {
-    padding-left: 80px;
-
-    width: 400px;
-}
-
-#beruf2{
-    display: flex;
-    justify-content: space-between;
-}
 
 #zeug a{
     text-decoration: none;
@@ -194,6 +186,7 @@ list-style: none;
         text-decoration: none;
         color: black;
         font-size: larger;
+     
         }
  #beruf2 a:hover{
             text-decoration: none;
@@ -259,6 +252,8 @@ margin-top: 200px;
 
 .Jahr {
    font-weight: bolder; 
+   margin-top: 40px;
+   width: 300px;
 }
 
 footer {
@@ -319,6 +314,7 @@ padding-bottom: 50px;
     margin-top: 80px;
 }
 
+
 #zeug2 {
     background-image: url("../images/doc.png");
     background-size: cover;
@@ -367,6 +363,7 @@ padding-bottom: 50px;
 #zeug {
     display: flex;
 justify-content: left;
+margin-top: 80px;
 }
 
 #main {
@@ -393,4 +390,14 @@ justify-content: left;
 .abstand {
     margin-top: 1050px ;
 }
+
+.abstande {
+    margin-bottom: 50px;
+}
+
+#beruftxt {
+    margin-left: 80px;
+    width: 400px;
+}
+
 
