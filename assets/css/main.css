@@ -71,11 +71,10 @@ align-items: center;
 }
 
 #maxi {
-
 margin-left: 100px;
 padding-top: 30px;
-
 }
+
 
 
 #third {
@@ -87,6 +86,28 @@ padding-top: 30px;
     display: flex;
 justify-content: flex-start;
 }
+
+#fbicon {
+background-image: url("../images/fb.jpg");
+background-size: cover;
+width: 40px;
+height: 40px;
+}
+
+#twittericon {
+    background-image: url("../images/twitter.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    }
+
+#instaicon {
+    margin-top: 10px;
+    background-image: url("../images/insta.jpg");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    }
 
 
 #telefonicon {
@@ -117,8 +138,8 @@ justify-content: flex-start;
 
 #standorticon {
     background-image: url("../images/standort.png");
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-size: cover;
 
     margin-top: 20px;
@@ -167,6 +188,7 @@ list-style: none;
     font-size: 20px;
     padding-top: 100px;
     padding-left: 30px;
+   
 }
 
 
@@ -210,14 +232,11 @@ color: black;
 
 #kenntnisse {
     padding-left: 80px;
-    display: flex;
-    justify-content: space-between;
+
     list-style: none;
 }
 
-#it {
-    padding-right: 1200px;
-}
+
 
 #startphoto {
     width: 100%;
@@ -396,8 +415,43 @@ margin-top: 80px;
 }
 
 #beruftxt {
+    margin-top: 40px;
     margin-left: 80px;
     width: 400px;
+    hyphens: auto; 
+	text-align: justify 
 }
 
+#beruf1 {
+    margin-left: 100px;
+}
 
+#beruf3 {
+    margin-left: 100px;
+}
+
+.runter {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.runter1 {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.icons a:hover {
+color: black;
+}
+
+#mailing {
+    margin-top: 10px;
+}
+
+.einzug {
+    margin-left: -10px;
+}
+
+#einzug1 {
+    margin-top: 10px;
+}
